@@ -214,7 +214,7 @@ After completing all TODOs, test your calculator:
 */
 
 import _ from "lodash";
-import {add,subtract,multiply,divide} from "./operation.js";
+import {add,subtract,multiply,divide} from "./utils/operation.js";
 import { parseNumbers, isValidOperation } from "./utils/parser.js";
 
 
